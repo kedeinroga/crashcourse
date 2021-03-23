@@ -10,5 +10,6 @@ module Types
     #   "Hello World!"
     # end
     field :fetch_courses, resolver: Queries::FetchCourses
+    field :fetch_course, resolver: Queries::FetchCourse
   end
 end
