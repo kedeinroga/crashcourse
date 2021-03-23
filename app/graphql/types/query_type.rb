@@ -9,11 +9,6 @@ module Types
     # def test_field
     #   "Hello World!"
     # end
-    field :all_courses, [Types::CourseType], null: false
-
-    def all_courses
-        Course.all
-    end
 
     field :fetch_courses, resolver: Queries::FetchCourses
     field :fetch_course, resolver: Queries::FetchCourse
