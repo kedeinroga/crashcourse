@@ -6,6 +6,7 @@ module Types
       argument :price, Float, required: false
       argument :discount, Float, required: false
       argument :description, String, required: false
+      argument :category_id, Integer, required: true
     end
   end
 end

@@ -15,5 +15,6 @@ module Types
     field :price, Float, null: true
     field :discount, Float, null: true
     field :description, String, null: true
+    field :category_id, Integer, null: false
   end
 end
